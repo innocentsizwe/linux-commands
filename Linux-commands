@@ -82,6 +82,8 @@ Basic Linux commands
 57. <ESC>		: to return to the Normal Mode.
 58. x			: delete the character under the cursor.
 59. A			: append to text.
+60. dw			: to delete a word.
+61. d$			: to delete to the end of the line.
 # --------------- End --------------------------------------------------------------------
 
 
