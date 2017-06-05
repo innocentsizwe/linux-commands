@@ -39,4 +39,6 @@ Basic Linux commands
 27. screen, use ctrl+d to terminate the screen.
 28. sudo apt-gt install screen
 30. ctrl+d		: terminate the screen.
+31. screen -ls		: list available screen sessions.
+32. ctrl+a then press d : detach from the screen.
 
