@@ -66,3 +66,19 @@ Basic Linux commands
 47. ctrl + a, c		: create a window in a new region.
 --------------- End --------------------------------------------------------------------
 
+--------------- Vim --------------------------------------------------------------------
+48. :q Enter		: Close vim.
+49. :w Enter		: Save changes.
+50. :wq Enter		: Save changes and close.
+51. :q! Enter		: Force close without save.
+52. Arrow keys, or j,k,h,l : Navigate around.
+53. i			: Switch to Insert mode.
+54. ESC			: Get back to the normal mode.
+55. vimtutor
+--------------- End --------------------------------------------------------------------
+
+--------------- Vim Commands -----------------------------------------------------------
+
+--------------- End --------------------------------------------------------------------
+
+
