@@ -103,6 +103,14 @@ Basic Linux commands
 78. ctrl+O		: go back to where you came from.
 79. ctrl+i		: to go back further.
 80. %			: to find a matching phrase.
+81. :s/old/new/g	: to substitute 'new' for 'old'.
+82. #,#s/old/new/g	: changes occurence of a character string between two lines, where #,# 
+			  where #,# are the line numbers of the range of lines where the 				  substitution is to be done.
+83. %s/old/new/g	: to change every occurrence in the whole file.
+84. %s/old/new/gc	: to find every occurrence in the whole file, with a prompt whether to 				  substitute or not.
+85. :!			: to run external commands.
+86. :!dir or :!ls	: get listing of your directory.
+87. :w TEST		: TEST is the filename you chose.
 # --------------- End --------------------------------------------------------------------
 
 
