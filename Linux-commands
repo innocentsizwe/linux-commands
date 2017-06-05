@@ -47,7 +47,7 @@ Basic Linux commands
 34. screen -r Test	: call the created screen session.
 --------------- End --------------------------------------------------------------------
 
---------------- Windows ----------------------------------------------------------------
+# --------------- Windows ----------------------------------------------------------------
 35. ctrl + a, "		: switch window.
 36. ctrl + a, c		: create new window.
 37. up/down or j/k	: navigate up and down.
@@ -55,18 +55,18 @@ Basic Linux commands
 39. ctrl + a a		: switch between the two last windows.
 40. ctrl + a, k		: kill a window.
 41. ctrl + a, d		: detach from screen session.
---------------- End --------------------------------------------------------------------
+# --------------- End --------------------------------------------------------------------
 
---------------- Splitting and Resizing Windows In Screen -------------------------------
+# --------------- Splitting and Resizing Windows In Screen -------------------------------
 42. ctrl + a, S		: split window horizontally.
 43. ctrl + a, Tab	: jump between windows.
 44. ctrl + a, |		: split window vertically.
 45. ctrl + a, :resize [rows/col] : resizing a region.
 46. ctrl + a, :remove	: close a region.
 47. ctrl + a, c		: create a window in a new region.
---------------- End --------------------------------------------------------------------
+# --------------- End --------------------------------------------------------------------
 
---------------- Vim --------------------------------------------------------------------
+# --------------- Vim --------------------------------------------------------------------
 48. :q Enter		: Close vim.
 49. :w Enter		: Save changes.
 50. :wq Enter		: Save changes and close.
@@ -75,7 +75,7 @@ Basic Linux commands
 53. i			: Switch to Insert mode.
 54. ESC			: Get back to the normal mode.
 55. vimtutor
---------------- End --------------------------------------------------------------------
+# --------------- End --------------------------------------------------------------------
 
 # --------------- Vim Commands -----------------------------------------------------------
 56. u			: undo command.
@@ -84,6 +84,15 @@ Basic Linux commands
 59. A			: append to text.
 60. dw			: to delete a word.
 61. d$			: to delete to the end of the line.
+62. 2w			: move the cursor two words forward.
+63. 3e			: move the cursor to the end of the third word forward.
+64. 0			: move to the start of the line.
+65. d2w			: delete the two UPPER CASE words.
+66. dd			: delete a whole line.
+67. 2dd			: delete two lines.
+68. u			: undo the last commands.
+69. U			: fix a whole line.
+70. p			: put previously deleted text after the cursor.
 # --------------- End --------------------------------------------------------------------
 
 
