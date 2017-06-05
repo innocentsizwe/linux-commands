@@ -99,7 +99,10 @@ Basic Linux commands
 74. /phrase		: for search purposes.
 75. n			: search for the same phrase again.
 76. N			: search for the same phrase in the opposite direction.
-77. ?			: search for the same phrase in the backward direction. 
+77. ?			: search for the same phrase in the backward direction.
+78. ctrl+O		: go back to where you came from.
+79. ctrl+i		: to go back further.
+80. %			: to find a matching phrase.
 # --------------- End --------------------------------------------------------------------
 
 
