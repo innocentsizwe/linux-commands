@@ -93,6 +93,13 @@ Basic Linux commands
 68. u			: undo the last commands.
 69. U			: fix a whole line.
 70. p			: put previously deleted text after the cursor.
+71. ce			: deletes the word and places you in the Insert mode.
+72. c$			: works the same way as the delete operator.
+73. ctrl+G		: show your location in the file and the file status.
+74. /phrase		: for search purposes.
+75. n			: search for the same phrase again.
+76. N			: search for the same phrase in the opposite direction.
+77. ?			: search for the same phrase in the backward direction. 
 # --------------- End --------------------------------------------------------------------
 
 
