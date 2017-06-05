@@ -111,6 +111,10 @@ Basic Linux commands
 85. :!			: to run external commands.
 86. :!dir or :!ls	: get listing of your directory.
 87. :w TEST		: TEST is the filename you chose.
+88. v			: show visual mode.
+89. y			: copy the text.
+90. p			: paste text.
+91. :set ic		: set ignore case.
 # --------------- End --------------------------------------------------------------------
 
 
