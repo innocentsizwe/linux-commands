@@ -1,0 +1,42 @@
+Basic Linux commands
+1. ls 			: to list the files.
+2. ls -1 		: to output one column.
+3. ls -1t		: list files according to times.
+4. ls -1tr 		: list files with last edited file at the bottom.
+5. find /		: display all files.
+6. find / | less	: display all files and also allow to navigate. Allow for searching. q to quit.
+7. ls -l / | less 	: 
+8. ls -l / | less -S 	: 
+9. tab			: to complete partially written text.
+10.ctrl+R		: retrieve previous command and search and use right arrow key to make changes.
+11. history		: retrieve all history being executed.
+12. history | less -S 	: to wrap all the long lines.
+13. ls -a		: show all the hidden files.
+14. :wq			: 
+15. ctrl+arrowkey 	: just between words.
+16. ls *.txt		: get text files in our current folder.
+17. ls *.txt | xargs cat: get content of all the files.
+18. ctrl+l		: clear the terminal.
+19. for file in $(ls *.php); do echo "------ $file ------"; cat $file; done;
+20. alias l="ls -ltr"	: creates aliases.
+21. list() { ls -ltr; }	: creates function called list.
+22. list() { ls -ltr $1; } ; eg list / : display files taking parameters.
+23. 
+    ---------------------------
+
+    alias l='ls -ltr'
+    alias ea='vim +1000 ~/.bash_aliases; source ~/.bash_aliases;'
+    alias listcurrentfolder() {
+      echo "Listing the root folder ..."
+      echo ""
+      ls /;
+
+    ---------------------------
+
+24. history | cut -c 8-1000 | sort | uniq : show the unique for each row.
+25. history | cut -c 8-1000 | sort | uniq -c : literal give you the count of each item.
+26. history | cut -c 8-1000 | sort | uniq -c | sort -n : gives a numerical sort.
+27. screen, use ctrl+d to terminate the screen.
+28. sudo apt-gt install screen
+30. ctrl+d		: terminate the screen.
+
