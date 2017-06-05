@@ -41,4 +41,6 @@ Basic Linux commands
 30. ctrl+d		: terminate the screen.
 31. screen -ls		: list available screen sessions.
 32. ctrl+a then press d : detach from the screen.
+33. screen -mS Test	: name the screen session.
+34. screen -r Test	: call the created screen session.
 
