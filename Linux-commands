@@ -62,5 +62,7 @@ Basic Linux commands
 43. ctrl + a, Tab	: jump between windows.
 44. ctrl + a, |		: split window vertically.
 45. ctrl + a, :resize [rows/col] : resizing a region.
+46. ctrl + a, :remove	: close a region.
+47. ctrl + a, c		: create a window in a new region.
 --------------- End --------------------------------------------------------------------
 
