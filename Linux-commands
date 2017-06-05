@@ -36,6 +36,8 @@ Basic Linux commands
 24. history | cut -c 8-1000 | sort | uniq : show the unique for each row.
 25. history | cut -c 8-1000 | sort | uniq -c : literal give you the count of each item.
 26. history | cut -c 8-1000 | sort | uniq -c | sort -n : gives a numerical sort.
+
+---------------- Screens ---------------------------------------------------------------
 27. screen, use ctrl+d to terminate the screen.
 28. sudo apt-gt install screen
 30. ctrl+d		: terminate the screen.
@@ -43,4 +45,22 @@ Basic Linux commands
 32. ctrl+a then press d : detach from the screen.
 33. screen -mS Test	: name the screen session.
 34. screen -r Test	: call the created screen session.
+--------------- End --------------------------------------------------------------------
+
+--------------- Windows ----------------------------------------------------------------
+35. ctrl + a, "		: switch window.
+36. ctrl + a, c		: create new window.
+37. up/down or j/k	: navigate up and down.
+38. ctrl + a, A		: rename current window.
+39. ctrl + a a		: switch between the two last windows.
+40. ctrl + a, k		: kill a window.
+41. ctrl + a, d		: detach from screen session.
+--------------- End --------------------------------------------------------------------
+
+--------------- Splitting and Resizing Windows In Screen -------------------------------
+42. ctrl + a, S		: split window horizontally.
+43. ctrl + a, Tab	: jump between windows.
+44. ctrl + a, |		: split window vertically.
+45. ctrl + a, :resize [rows/col] : resizing a region.
+--------------- End --------------------------------------------------------------------
 
