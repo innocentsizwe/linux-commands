@@ -117,4 +117,10 @@ Basic Linux commands
 91. :set ic		: set ignore case.
 # --------------- End --------------------------------------------------------------------
 
-
+----------------- Terminator --------------------------------------------
+92. ctrl + shift + Z    : split horizontally.
+93. ctrl + shift + E    : split vertically.
+94. ctrl + d            : close terminal.
+95. alt + left/up/right/down : switch between windows.
+96. ctrl + shift + left/up/right/down : resize terminal.
+----------------- End ---------------------------------------------------
