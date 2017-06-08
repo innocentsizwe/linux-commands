@@ -125,3 +125,4 @@ Basic Linux commands
 96. ctrl + shift + left/up/right/down : resize terminal.
 ----------------- End ---------------------------------------------------
 
+97. cp -r . ~/Documents/linux-commands : Copy contents of bin into documents folder.
